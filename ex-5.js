@@ -2,11 +2,6 @@
 let companyName = 'TechUp';
 
 // Start coding here
-for (let char in companyName) {
-  console.log(char);
-  console.log(`Number ${+char + 1} character is ${companyName[char]}`);
+for (let index in companyName) {
+  console.log(`Number ${++index} character is ${companyName[--index]}`);
 }
-
-// for (let char in companyName) {
-//   console.log(`Number ${++char} character is ${companyName[--char]}`);
-// }
