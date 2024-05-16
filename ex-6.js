@@ -18,3 +18,5 @@ for (let i = 0; i < companyName.length; i++) {
 //     reversedCompanyName = reversedCompanyName + companyName[i];
 // }
   console.log(reversedCompanyName);
+
+  

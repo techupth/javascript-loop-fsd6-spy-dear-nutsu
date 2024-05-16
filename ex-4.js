@@ -3,7 +3,7 @@ let restaurants = ["KFC", "MOMO PARADISE", "Nabezo"];
 let newRestaurants = [];
 
 for (let i = 0 ; i < restaurants.length ; i++) {
-    newRestaurants = `Restaurant Name: ${restaurants[i]}`
+    newRestaurants[i] = `Restaurant Name: ${restaurants[i]}`
 }
 
 console.log(newRestaurants);
